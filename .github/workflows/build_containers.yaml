@@ -17,4 +17,4 @@ jobs:
       - name: Push to docker hub
         uses: actions-hub/docker@master
         with:
-          args: push bioconductor/jupyter-galaxy:21.10
+          args: push  bioconductor/galaxy-jupyter:21.10
